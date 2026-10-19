@@ -1,0 +1,16 @@
+# Local solution notes must never be published
+.private/
+
+# Common generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+*.class
+.idea/
+.vscode/
+.DS_Store
