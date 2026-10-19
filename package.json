@@ -1,6 +1,15 @@
 {
   "name": "web-content-audit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Small local console project"
+  "type": "module",
+  "description": "A dependency-free CLI for auditing Markdown content and local links.",
+  "scripts": {
+    "start": "node src/main.js",
+    "audit:example": "node src/main.js examples/content"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
 }
